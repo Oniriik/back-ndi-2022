@@ -16,7 +16,15 @@ const Questions = new mongoose.Schema({
     categories:{
         type: [Object],
         required: true
-    }
+    },
+    caption:{
+        type: String,
+        required: true
+    },
+    link:{
+        type: String,
+        required: true
+    },
 })
 
 module.exports = mongoose.model("Questions", Questions)
