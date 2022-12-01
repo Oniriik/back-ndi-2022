@@ -1,0 +1,35 @@
+{
+  "name": "back-ndi-2022-project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "author": "OnlyCodeChads - Nuit de l'info 2022",
+  "contributors": [
+    {
+      "name": "Timothe Lim",
+      "link": "https://github.com/Oniriik"
+    },
+    {
+      "name": "Joao Manuel Fernandes Lopes",
+      "link": "https://github.com/JUSTIKA"
+    },
+    {
+      "name": "Kevin Jourdain",
+      "link": "https://github.com/kiwi-666"
+    }
+  ],
+  "license": "ISC",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "mongoose": "^6.0.8",
+    "socket.io": "^4.5.4"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.13"
+  }
+}
