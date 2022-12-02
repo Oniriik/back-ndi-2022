@@ -13,8 +13,8 @@ const Questions = new mongoose.Schema({
         type: [Object],
         required: true
     },
-    categories:{
-        type: [Object],
+    category:{
+        type: String,
         required: true
     },
     caption:{
