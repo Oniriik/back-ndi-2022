@@ -42,7 +42,7 @@ const getQuestions = async (req,res)=>{
 }
 
 const openAi = async(req,res)=>{
-   
+        console.log('here')
       try{
         const response = await openai.createCompletion({
             model: "text-davinci-003",

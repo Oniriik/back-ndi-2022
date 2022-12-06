@@ -11,6 +11,9 @@ const app = express();
 // app middlewares
 app.use(express.json())
 app.use(express.urlencoded({extended: false}))
+var corsOptions = {
+    origin: 'https://sexeinfo.netlify.app',
+    optionsSuccessStatus: 200
 app.use(cors())
 // middleware for routes
 app.use("/questions", questions)
